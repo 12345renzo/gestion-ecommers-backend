@@ -49,3 +49,4 @@ public class Usuario {
     @ManyToOne
     @JoinColumn(name = "idrol", referencedColumnName = "idrol")
     private Rol rol;
+}
